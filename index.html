@@ -1,0 +1,589 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <title>Minor Visual Interface Design</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Template by Dry Themes" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, PHP" />
+    <meta name="author" content="DryThemes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="shortcut icon" href="images/favicon.png" />
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900%7CMontserrat:400,700%7CPT+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href='css/clear.css' />
+    <link rel="stylesheet" type="text/css" href='css/common.css' />
+    <link rel="stylesheet" type="text/css" href='css/font-awesome.min.css' />
+    <link rel="stylesheet" type="text/css" href='css/carouFredSel.css' />
+    <link rel="stylesheet" type="text/css" href='css/prettyPhoto.css' />
+    <link rel="stylesheet" type="text/css" href='css/sm-clean.css' />
+    <link rel="stylesheet" type="text/css" href='style.css' />
+
+    <!--[if lt IE 9]>
+                <script src="js/html5shiv.js"></script>
+                <script src="js/respond.min.js"></script>
+        <![endif]-->
+
+</head>
+
+<body class="page">
+
+    <table class="doc-loader">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="images/logo.png" alt="Loading...">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+    <div class="menu-wraper center-relative">
+        <div class="menu-logo center-text">
+            <a href="index.html">
+                <img src="images/logo.png" alt="Reopen" />
+            </a>
+        </div>
+        <nav id="header-main-menu" class="big-menu">
+            <ul class="main-menu sm sm-clean">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+
+                <li>
+                    <a href="contact.html">Contact</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="contact-map.html">Contact + Map</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="clear"></div>
+    </div>
+
+    <div class="body-wrapper">
+        <div class="header-holder center-relative relative">
+            <div class="header-logo center-text">
+
+                <!--LOGO-->
+                <a href="index.html">
+                    <img src="images/logo.png" alt="Reopen WP">
+                </a>
+            </div>
+            <div class="toggle-holder absolute">
+                <div id="toggle">
+                    <div class="first-menu-line"></div>
+                    <div class="second-menu-line"></div>
+                    <div class="third-menu-line"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+        <div class="block content-1170 center-relative">
+            <h1 class="entry-title"> Minor Visual Interface Design </h1>
+
+        </div>
+
+        <main>
+
+<div id="myBtnContainer">
+            <div class="filters">
+                <button class="btn active" onclick="filterSelection('all')">Show all</button>
+                <button class="btn" onclick="filterSelection('project')">Projecten</button>
+                <button class="btn" onclick="filterSelection('ui/ux')">UI/UX</button>
+                <button class="btn" onclick="filterSelection('animations')">Animations</button>
+                <button class="btn" onclick="filterSelection('extra')">Extra</button>
+            </div>
+            </div>
+
+
+
+
+            <!--PORTFOLIO-->
+            <!--
+            <section>
+            <a href="rollerskates.html">
+                <div class="grid" id="portfolio">
+                    <div class="grid-sizer">
+                        <div class="grid-item element-item p_one_third">
+
+                            <img src="images/NibudScherm.jpg" alt="" />
+
+                            <div class="portfolio-overlay">
+                                <p class="portfolio-text">De Latte factor</p>
+                                <p class="portfolio-type">UI</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="rollerskates.html">
+                <div class="grid" id="portfolio">
+                    <div class="grid-sizer">
+                        <div class="grid-item element-item p_one_third">
+
+                            <img src="images/DeAtlasApp.jpg" alt="" />
+
+                            <div class="portfolio-overlay">
+                                <p class="portfolio-text">De Atlas app</p>
+                                <p class="portfolio-type">UI</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+
+
+
+
+            <a href="rollerskates.html">
+                <div class="grid" id="portfolio">
+                    <div class="grid-sizer">
+                        <div class="grid-item element-item p_one_third">
+
+                            <img src="images/CriminalguidePoster.jpg" alt="" />
+
+                            <div class="portfolio-overlay">
+                                <p class="portfolio-text">Criminal Guide</p>
+                                <p class="portfolio-type">Infographic</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="rollerskates.html">
+                <div class="grid" id="portfolio">
+                    <div class="grid-sizer">
+                        <div class="grid-item element-item p_one_third">
+
+                            <img src="images/MarihuanaPoster.svg" alt="" />
+
+                            <div class="portfolio-overlay">
+                                <p class="portfolio-text">Marihuana Smokkelaar</p>
+                                <p class="portfolio-type">Infographic</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+
+            <a href="rollerskates.html">
+                <div class="grid" id="portfolio">
+                    <div class="grid-sizer">
+                        <div class="grid-item element-item p_one_third">
+
+                            <img src="images/rollerskates.png" alt="" />
+
+                            <div class="portfolio-overlay">
+                                <p class="portfolio-text">Rollerskates</p>
+                                <p class="portfolio-type">Illustration</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+            <a href="rollerskates.html">
+                <div class="grid" id="portfolio">
+                    <div class="grid-sizer">
+                        <div class="grid-item element-item p_one_third">
+
+                            <img src="images/Alien.gif" alt="" />
+
+                            <div class="portfolio-overlay">
+                                <p class="portfolio-text">Alien</p>
+                                <p class="portfolio-type">Animation</p>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </a>
+
+<!--
+
+            <div class="clear"></div>
+
+            <div class="block content-1170 center-relative center-text top-50 bottom-50">
+                <a target="_self" class="more-posts-portfolio">
+                    <img src="images/loadMoreArrow.png" alt="Load more" />
+                </a>
+            </div>
+            <div class="clear"></div>
+
+
+</section>
+
+       -->
+
+
+
+            <!-- /portfolio 2e versie -->
+
+            <!--<div class="row mb-5"> -->
+            <!--<div class="filter">
+              <div class="col-10">
+                <div class="btn-group btn-group-toggle " data-toggle="buttons">
+
+                  <label class="btn active ">
+                    <input type="radio" name="shuffle-filter" value="all" checked="checked" />All Projects
+                  </label>
+
+                  <label class="btn">
+                    <input type="radio" name="shuffle-filter" value="UIUX" />UI/UX Design
+                  </label>
+
+                  <label class="btn">
+                    <input type="radio" name="shuffle-filter" value="infographics" />Infographics
+                  </label>
+
+                  <label class="btn">
+                    <input type="radio" name="shuffle-filter" value="illustration" />Illustrations
+                  </label>
+
+                   <label class="btn">
+                    <input type="radio" name="shuffle-filter" value="animation" />Animations
+                  </label>
+                </div>
+              </div>
+        </div>
+
+<!--PORTFOLIO-->
+
+            <section class="portfolio ">
+                <div class="container">
+                    <!--<div class="row shuffle-wrapper portfolio-gallery"> -->
+
+
+                         <div class="column ui/ux">
+                            <div class="content">
+                        <a href="beeldtaal.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/Beeldtaal.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="beeldtaal.html">
+                                                    <h5 class="mb-0">Reclame campagne</h5>
+                                                    <p>Beeldtaal</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+                       <div class="column animations">
+    <div class="content">
+                        <a href="polaroidanimation.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/PolaroidMockup.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="polaroidanimation.html">
+                                                    <h5 class="mb-0">Polaroid animation</h5>
+                                                    <p>Animation</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+                        <div class="column ui/ux">
+                            <div class="content">
+                        <a href="typografie.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/typografieMockup.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="typografie.html">
+                                                    <h5 class="mb-0">Font Confidential</h5>
+                                                    <p>Typografie</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+                       <div class="column project">
+                            <div class="content">
+                        <a href="anaarb.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/anaarberlijnMockup.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="anaarb.html">
+                                                    <h5 class="mb-0">Van A naar Berlijn</h5>
+                                                    <p>Ontwerpen 1</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+                        <div class="column animations">
+                            <div class="content">
+                        <a href="webanimatie.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/BillieCover.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="webanimatie.html">
+                                                    <h5 class="mb-0">Billie Eilish</h5>
+                                                    <p>Web Animatie</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+
+
+
+
+                   <div class="column ui/ux">
+                            <div class="content">
+                        <a href="gridenkleur.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/GridenKleurMockup.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="gridenkleur.html">
+                                                    <h5 class="mb-0">Yellow</h5>
+                                                    <p>Grid &amp; kleur</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+                        <div class="column ui/ux">
+                            <div class="content">
+                        <a href="bladerunner.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/BladeRunnerMockup.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="bladerunner.html">
+                                                    <h5 class="mb-0">Blade runner 2049</h5>
+                                                    <p>Web typografie</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+
+
+
+                        <div class="column extra">
+                            <div class="content">
+                        <a href="persoonlijkleerdoel.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/LongboardMockup.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="persoonlijkleerdoel.html">
+                                                    <h5 class="mb-0">Longboards</h5>
+                                                    <p>Persoonlijk leerdoel</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+
+                        <div class="column extra">
+                            <div class="content">
+                        <a href="petchakutcha.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/PetchaKutcha.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="petchakutcha.html">
+                                                    <h5 class="mb-0">Skeuomorfisme</h5>
+                                                    <p>Petcha Kutcha</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+
+<div class="column project">
+                            <div class="content">
+                        <a href="nosedive.html">
+                            <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[&quot;design&quot;,&quot;photo&quot;]">
+                                <div class="position-relative inner-box">
+                                    <div class="image position-relative ">
+                                        <img src="images/NosediveMockup.png" alt="portfolio-image" class="img-fluid w-100 d-block">
+                                        <div class="overlay-box">
+                                            <div class="overlay-inner">
+                                                <a class="overlay-content" href="nosedive.html">
+                                                    <h5 class="mb-0">Nosedive - Black mirror</h5>
+                                                    <p>Ontwerpen 3</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                           </div>
+                        </div>
+
+
+                </div>
+            </section>
+
+
+
+
+        </main>
+
+
+        <!--Footer-->
+
+        <footer class="footer">
+
+            <ul>
+                <li class="copyright-footer">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> <p>by Rebecca Hutubessy</p>
+
+                </li>
+                <li class="social-footer">
+
+                   <!-- <a href="#">
+                        <span class="fa fa-behance"></span>
+                    </a>
+
+                    <a href="#">
+                        <span class="fa fa-dribbble"></span>
+                    </a>
+                    -->
+
+                    <a href="https://www.facebook.com/rebecca.hutubessy">
+                        <img src="images/fb.svg" alt="facebook">
+                    </a>
+                    <a href="https://www.instagram.com/re.beccaxo/">
+                        <img src="images/insta.svg" alt="instagram">
+                    </a>
+
+                    <a href="https://www.instagram.com/re.beccaxo/">
+                        <img src="images/linkedin.svg" alt="linkedin">
+                    </a>
+                </li>
+            </ul>
+
+        </footer>
+
+        <!-- End .body-border -->
+    </div>
+
+
+    <!--Load JavaScript-->
+    <script src="js/jquery.js"></script>
+    <script src='js/jquery.fitvids.js'></script>
+    <script src='js/jquery.smartmenus.min.js'></script>
+    <script src='js/isotope.pkgd.js'></script>
+    <script src='js/imagesloaded.pkgd.js'></script>
+    <script src='js/isotope.pkgd.js'></script>
+    <script src='js/jquery.carouFredSel-6.0.0-packed.js'></script>
+    <script src='js/jquery.mousewheel.min.js'></script>
+    <script src='js/jquery.touchSwipe.min.js'></script>
+    <script src='js/jquery.easing.1.3.js'></script>
+    <script src='js/imagesloaded.pkgd.js'></script>
+    <script src='js/jquery.prettyPhoto.js'></script>
+    <script src='js/jquery.nicescroll.min.js'></script>
+    <script src='js/main.js'></script>
+</body>
+
+</html>
